@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Kentico.CodeAnalysis.Ruleset" ToolsVersion="14.0">
+  <Rules AnalyzerId="Microsoft.AnalyzerPowerPack.CSharp" RuleNamespace="Microsoft.AnalyzerPowerPack.CSharp">
+    <Rule Id="CA1821" Action="None" />
+    <Rule Id="CA2200" Action="None" />
+    <Rule Id="CA2214" Action="None" />
+    <Rule Id="CA1024" Action="None" />
+    <Rule Id="CA1033" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.AnalyzerPowerPack.Common" RuleNamespace="Microsoft.AnalyzerPowerPack.Common">
+    <Rule Id="CA1715" Action="Warning" />
+    <Rule Id="CA2229" Action="None" />
+    <Rule Id="CA2235" Action="None" />
+    <Rule Id="CA2237" Action="None" />
+    <Rule Id="CA1708" Action="None" />
+    <Rule Id="CA1053" Action="None" />
+    <Rule Id="CA1052" Action="None" />
+    <Rule Id="CA1012" Action="None" />
+    <Rule Id="CA1008" Action="None" />
+  </Rules>
+</RuleSet>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Kentico.CodeAnalysis.Ruleset</id>
+        <version>10.0.0</version>
+        <title>Kentico Code Analysis Ruleset</title>
+        <authors>Kentico Software</authors>
+        <licenseUrl>https://github.com/Kentico/CodeAnalysisRuleset/blob/master/License.txt</licenseUrl>
+        <projectUrl>https://github.com/Kentico/CodeAnalysisRuleset</projectUrl>
+        <iconUrl>http://www.kentico.com/favicon.ico</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <developmentDependency>true</developmentDependency>
+        <description>Package contains code analysis ruleset file with recommended rules for Kentico projects.</description>
+        <releaseNotes />
+        <copyright>Copyright (c) 2015 Kentico Software</copyright>
+        <tags>kentico ruleset code analysis</tags>
+        <dependencies>
+            <dependency id="Microsoft.AnalyzerPowerPack" version="1.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Kentico.CodeAnalysis.ruleset" target="content\Kentico.CodeAnalysis.ruleset" />
+    </files>
+</package>
