@@ -1,5 +1,8 @@
 # Kentico Code Analysis Ruleset
 
+[![Build status](https://ci.appveyor.com/api/projects/status/h17txv85llgocrw0?svg=true)](https://ci.appveyor.com/project/kentico/codeanalysisruleset)
+
+
 ### Active rules
 
 - **Microsoft.AnalyzerPowerPack.Common**
