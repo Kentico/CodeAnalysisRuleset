@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Kentico.CodeAnalysis.Ruleset</id>
-        <version>10.0.1</version>
+        <version>10.0.2</version>
         <title>Kentico Code Analysis Ruleset</title>
         <authors>Kentico Software</authors>
         <licenseUrl>https://github.com/Kentico/CodeAnalysisRuleset/blob/master/License.txt</licenseUrl>
