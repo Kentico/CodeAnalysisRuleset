@@ -4,7 +4,7 @@
 
 This repository contains static code analysis ruleset used by Kentico projects. This ruleset aggregates various code analysis libraries and rules to one reusable NuGet package.
 
-If you have no idea what code analysis means, take a look at this [video](https://www.youtube.com/watch?v=lFYyp_jUXgs)
+If you have no idea what code analysis means, take a look at this [video](https://www.youtube.com/watch?v=lFYyp_jUXgs).
 
 :warning: This ruleset is meant for Kentico v10. In case of use with a previous version, it will produce some extra warnings. 
 
@@ -19,7 +19,7 @@ Then in a project properties > code analysis > select newly downloaded ruleset.
 
 ### How to run code analysis from the command line?
 
-After successful installation, add ```RunCodeAnalysis``` parameter into the ```MSBuild``` and you're good to go
+After successful installation, add ```RunCodeAnalysis``` parameter into the ```MSBuild``` and you're good to go.
 ```powershell
 MSBuild MySolution.sln /p:RunCodeAnalysis=true
 ```
