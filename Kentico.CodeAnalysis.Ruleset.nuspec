@@ -3,7 +3,7 @@
     <metadata>
         <id>Kentico.CodeAnalysis.Ruleset</id>
         <version>10.0.0</version>
-        <title>Kentico Code Analysis Ruleset</title>
+        <title>Kentico Code Analysis Rule Set</title>
         <authors>Kentico Software</authors>
         <licenseUrl>https://github.com/Kentico/CodeAnalysisRuleset/blob/master/License.txt</licenseUrl>
         <projectUrl>https://github.com/Kentico/CodeAnalysisRuleset</projectUrl>
