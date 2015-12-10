@@ -1,21 +1,21 @@
-# Kentico Code Analysis Ruleset
+# Kentico Code Analysis Rule Set
 
 [![Build status](https://ci.appveyor.com/api/projects/status/h17txv85llgocrw0?svg=true)](https://ci.appveyor.com/project/kentico/codeanalysisruleset)
 
-This repository contains a static code analysis ruleset used by Kentico projects. The ruleset aggregates various code analysis libraries and rules to one reusable NuGet package.
+This repository contains a static code analysis rule set used by Kentico projects. The rule set aggregates various code analysis libraries and rules to one reusable NuGet package.
 
 If you're new to static code analysis, take a look at this [video](https://www.youtube.com/watch?v=lFYyp_jUXgs).
 
-:warning: This ruleset is designed for Kentico v10. Using the ruleset with a previous version of Kentico will produce some additional warnings.
+:warning: This rule set is designed for Kentico v10. Using the rule set with a previous version of Kentico will produce some additional warnings.
 
-### How do I install the ruleset in my projects?
+### How do I install the rule set in my projects?
 
-Install this NuGet package as a dependency. This automatically adds references to the code analyzer libraries and downloads the ruleset file into the project root folder. 
+Install this NuGet package as a dependency. This automatically adds references to the code analyzer libraries and downloads the rule set file into the project root folder. 
 ```powershell
-# It's recommended to use DependencyVersion to HighestMinor to keep the ruleset automatically updated
+# It's recommended to use DependencyVersion to HighestMinor to keep the rule set automatically updated
 Install-Package Kentico.CodeAnalysis.Ruleset -DependencyVersion HighestMinor
 ```
-Then, in your project properties > code analysis > select the newly downloaded ruleset.
+Then, in your project properties > code analysis > select the newly downloaded rule set.
 
 ### How do I run code analysis from the command line?
 
@@ -24,11 +24,11 @@ After a successful installation, set the ```RunCodeAnalysis``` parameter in ```M
 MSBuild MySolution.sln /p:RunCodeAnalysis=true
 ```
 
-### Benefits of distributing ruleset as a NuGet package
+### Benefits of distributing rule set as a NuGet package
 
 - automatic updates of dependencies to Code Analyzer libraries
-- automatic updates of the ruleset file
-- reusability of the same ruleset in different projects/solutions
+- automatic updates of the rule set file
+- reusability of the same rule set in different projects/solutions
 
 ## Active rules
 
