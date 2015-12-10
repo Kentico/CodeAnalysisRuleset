@@ -12,8 +12,7 @@ If you're new to static code analysis, take a look at this [video](https://www.y
 
 Install this NuGet package as a dependency. This automatically adds references to the code analyzer libraries and downloads the rule set file into the project root folder. 
 ```powershell
-# It's recommended to use DependencyVersion to HighestMinor to keep the rule set automatically updated
-Install-Package Kentico.CodeAnalysis.Ruleset -DependencyVersion HighestMinor
+Install-Package Kentico.CodeAnalysis.Ruleset
 ```
 Then, in your project properties > code analysis > select the newly downloaded rule set.
 
