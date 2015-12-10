@@ -10,7 +10,7 @@
         <iconUrl>http://www.kentico.com/favicon.ico</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <developmentDependency>true</developmentDependency>
-        <description>Package contains code analysis ruleset file with recommended rules for Kentico projects.</description>
+        <description>Static code analysis rule set used in Kentico projects.</description>
         <releaseNotes />
         <copyright>Copyright (c) 2015 Kentico Software</copyright>
         <tags>kentico ruleset code analysis</tags>
