@@ -33,3 +33,5 @@ MSBuild MySolution.sln /p:RunCodeAnalysis=true
 
 - **Microsoft.AnalyzerPowerPack.Common**
  - :warning: [CA1715](https://msdn.microsoft.com/library/ms182243.aspx): Identifiers should have correct prefix.
+
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/Kentico/CodeAnalysisRuleset?pixel)
